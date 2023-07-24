@@ -29,8 +29,6 @@ In this Java example, the Collections API (java.util) offers the ArrayList class
 ## What is a Framework?
 A framework is like a ready-made blueprint or template for creating something. It's like a helper that already set up a structure for developers to follow. Developers just need to fill in the details using the framework's guidelines, making the development process faster and more organized.
 
-Example in Java:
-
 **Example in Java:**
 ```java
 import org.springframework.boot.SpringApplication;
