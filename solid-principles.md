@@ -58,3 +58,65 @@ public class AreaCalculator {
     }
 }
 ```
+
+## Liskov Substitution Principle (LSP)
+The LSP ensures derived classes can substitute their base classes without affecting correctness. Example with animals:
+
+```java
+// Animal hierarchy adhering to LSP
+public class Animal {
+    // method for making sound
+}
+
+public class Dog extends Animal {
+    // Dog-specific sound
+}
+
+public class Cat extends Animal {
+    // Cat-specific sound
+}
+
+## Interface Segregation Principle (ISP)
+The ISP advises avoiding forced dependencies. Example with printer interfaces:
+
+```java
+// Printer interfaces adhering to ISP
+public interface Printer {
+    void print();
+}
+
+public interface Scanner {
+    void scan();
+}
+
+public class LaserPrinter implements Printer {
+    // LaserPrinter implementation
+}
+
+public class InkjetPrinter implements Printer, Scanner {
+    // InkjetPrinter implementation
+}
+Dependency Inversion Principle (DIP)
+The DIP promotes depending on abstractions. Example with Report and Formatter:
+
+```java
+// Formatter abstraction
+public interface Formatter {
+    String formatData(List<String> data);
+}
+
+// Report using Formatter through dependency injection
+public class Report {
+    private Formatter formatter;
+
+    public Report(Formatter formatter) {
+        this.formatter = formatter;
+    }
+
+    public void generateReport(List<String> data) {
+        // Logic using injected formatter
+    }
+}
+Applying the SOLID principles leads to maintainable code and effective programming practices.
+
+These practical examples showcase how to apply SOLID principles in Java programming.
