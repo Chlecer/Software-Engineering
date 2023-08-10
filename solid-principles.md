@@ -75,6 +75,7 @@ public class Dog extends Animal {
 public class Cat extends Animal {
     // Cat-specific sound
 }
+```
 
 ## Interface Segregation Principle (ISP)
 The ISP advises avoiding forced dependencies. Example with printer interfaces:
@@ -96,7 +97,9 @@ public class LaserPrinter implements Printer {
 public class InkjetPrinter implements Printer, Scanner {
     // InkjetPrinter implementation
 }
-Dependency Inversion Principle (DIP)
+```
+
+## Dependency Inversion Principle (DIP)
 The DIP promotes depending on abstractions. Example with Report and Formatter:
 
 ```java
@@ -117,6 +120,7 @@ public class Report {
         // Logic using injected formatter
     }
 }
-Applying the SOLID principles leads to maintainable code and effective programming practices.
+```
 
+Applying the SOLID principles leads to maintainable code and effective programming practices.
 These practical examples showcase how to apply SOLID principles in Java programming.
