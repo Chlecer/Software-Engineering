@@ -5,7 +5,18 @@ When it comes to web development, there are several technologies at play, each s
 ## Frontend Technologies
 
 ### TypeScript
-- TypeScript is an extension of JavaScript that introduces static typing to the language.
+- **TypeScript:** TypeScript is an extension of JavaScript that introduces static typing to the language.
+  - In JavaScript, variables can hold different types of values without declaring their type explicitly. For example:
+    ```javascript
+    let number = 5;
+    number = "hello";
+    ```
+  - With TypeScript, you explicitly define the type of a variable, making your code more reliable. For instance:
+    ```typescript
+    let number: number = 5;
+    number = "hello"; // TypeScript would show an error here because "number" must be a number
+    ```
+  - This static typing helps catch errors early and ensures variables are used as intended.
 - It finds its primary application in frontend development, particularly within web applications.
 - TypeScript is often paired with frontend frameworks like Angular and Vue.js.
 
