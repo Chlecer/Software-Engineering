@@ -26,8 +26,10 @@ public class Singleton {
         System.out.println("Hello, I am a Singleton!");
     }
 }
+```
 
-How It Works
+### How It Works
+
 In this example, we have a class called Singleton. The Singleton pattern ensures that there can be only one instance of this class. Here's how it works:
 
 We declare a static variable instance that will hold the single instance of the class.
@@ -53,8 +55,9 @@ fun main() {
     // Access the Singleton instance
     Singleton.showMessage()
 }
+```
 
-How It Works
+### How It Works
   
 We define a Singleton object using the object keyword.
 Inside the Singleton object, we use an init block to execute code when the Singleton instance is created. In this case, it prints "Singleton instance created."
