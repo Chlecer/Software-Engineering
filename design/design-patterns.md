@@ -12,7 +12,7 @@ Design patterns continue to be relevant and valuable in today's software develop
 
 5. **Performance:** Some design patterns, such as the Singleton or Factory pattern, can improve performance by optimizing resource allocation and minimizing overhead.
 
-6. **Maintaining Quality:** Design patterns encourage adherence to best practices and principles like [SOLID](solid-principles.md) (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion). This leads to higher code quality and reduces the likelihood of introducing bugs during development.
+6. **Maintaining Quality:** Design patterns encourage adherence to best practices and principles like [SOLID](patterns/solid-principles.md) (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion). This leads to higher code quality and reduces the likelihood of introducing bugs during development.
 
 7. **Industry Standards:** Many design patterns have become industry standards. Familiarity with these patterns makes it easier to understand and work on existing codebases and collaborate with developers worldwide.
 
@@ -33,7 +33,7 @@ Categorizing design patterns by functionality simplifies the process of understa
 
 These patterns focus on object creation mechanisms:
 
-1. **[Singleton Pattern](singleton.md):** Ensures that a class has only one instance and provides global access to it.
+1. **[Singleton Pattern](patterns/singleton.md):** Ensures that a class has only one instance and provides global access to it.
 
 2. **Factory Method Pattern:** Defines an interface for creating objects, allowing subclasses to alter the object type.
 
