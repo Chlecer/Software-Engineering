@@ -124,7 +124,9 @@ In both examples, we've defined an interface for the factory (`CharacterFactory`
 
 The Factory Method Pattern is a powerful tool for managing object creation in a clean and organized way, improving code maintainability, and supporting future extensibility.
 
-You raise a valid point. In the examples provided, you still need to know which specific factory (`WarriorFactory` or `MageFactory`) to use when creating an object, which may seem counterintuitive since the goal is to decouple the client code from concrete classes.
+**However, if we need to explicitly create the concrete factory, what are the actual advantages of using this pattern?**
+
+In the examples provided, you still need to know which specific factory (`WarriorFactory` or `MageFactory`) to use when creating an object, which may seem counterintuitive since the goal is to decouple the client code from concrete classes.
 
 The primary benefits of the Factory Method Pattern become more apparent when you have a more complex application where:
 
