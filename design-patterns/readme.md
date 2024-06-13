@@ -85,9 +85,12 @@ These patterns manage concurrency and synchronization:
 
 20. **Double-Checked Locking Singleton Pattern:** Optimizes Singleton pattern for multi-threading.
 
-21. **Producer-Consumer Pattern:** Separates producers and consumers for efficient multi-threaded collaboration.
+Please note,
+In Spring Boot applications, the Singleton pattern is frequently used, especially with components managed by Spring (such as services and repositories). However, the way Spring manages the lifecycle of beans reduces the need for manual implementation of the Singleton pattern with `volatile`. Spring handles the creation and injection of dependencies, ensuring thread safety without the developer needing to directly deal with synchronization details and `volatile`.
 
-22. **Read-Write Lock Pattern:** Manages concurrent access to shared resources.
+22. **Producer-Consumer Pattern:** Separates producers and consumers for efficient multi-threaded collaboration.
+
+23. **Read-Write Lock Pattern:** Manages concurrent access to shared resources.
 
 Understanding and applying these design patterns is crucial for creating robust, maintainable, and efficient software systems. They provide a toolbox of solutions to common challenges, helping developers make informed design decisions.
 
